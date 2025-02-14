@@ -1,0 +1,39 @@
+har.log.entries.forEach(function (entry){
+    if(entry.response.content.mimeType.indexOf("image/") !==0 ) return;
+        imageUrls.push(entry.request.url);
+});
+
+console.log(imageUrls.join('\n'))
+
+
+https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-home-logo-colombus-bleu.png
+https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-home-g2-am-white.png
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-2.png
+https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-home-nexera.png
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-3.png
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-4.png
+https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-home-nuklao.png
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-5.png
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-7.png
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-8.png
+https://thisismagma.com/wp-content/uploads/2023/09/thisismagma.com-home-da-partners-2.png
+https://thisismagma.com/wp-content/uploads/2023/11/thisismagma.com-home-francais-data4u.png
+https://thisismagma.com/wp-content/uploads/2023/12/thisismagma.com-home-autodesk-logo.png
+https://thisismagma.com/wp-content/uploads/2023/12/thisismagma.com-home-logion-logo.png
+https://thisismagma.com/wp-content/uploads/2024/02/thisismagma.com-home-francais-image001.png
+https://thisismagma.com/wp-content/uploads/2024/04/thisismagma.com-home-stegx-logo.png
+https://thisismagma.com/wp-content/uploads/2024/09/thisismagma.com-home-logo-akila.png
+https://thisismagma.com/wp-content/uploads/2024/10/thisismagma.com-home-eyesnap-logo.png
+https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-home-shokworks-w.png
+https://thisismagma.com/wp-content/themes/magma/assets/home/lore/1.png
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1-1.5x.jpg
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-2-1.5x.jpg
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-3-1.5x.jpg
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-4-1.5x.jpg
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-5-1.5x.jpg
+https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-6-1.5x.jpg
+https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-digital-twins-meet-blockchain-magmas-3d-viewer-is-live-screenshot-2025-01-30-at-08.32.08.png
+https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-join-us-at-the-miami-digital-real-estate-summit-miami-digital-real-estate-summit.jpg
+https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-1-1.jpeg
+https://thisismagma.com/wp-content/themes/magma/favicon-32x32.png
