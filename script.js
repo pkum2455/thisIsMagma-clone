@@ -169,7 +169,7 @@ function canvas() {
     scrollTrigger: {
       scrub: 0.5,
       trigger: `#page3`,
-      start: `top top`,
+      start: `top bottom`,
       end: `250% top`,
       scroller: `#main`,
     },

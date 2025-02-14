@@ -436,12 +436,21 @@ html,body{
 .right11 > h4{
     font-weight: 100;
     margin-bottom: 0.8rem;  
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .right11 > h1{
     font-size: 2vw;
 }
+.recent-blog-btn{
+    padding: 0.8rem 3rem;
+    border: 1px solid blue;
+    border-radius: 25px;
+    background-color: #fff;
+    color: blue;
+    position: absolute;
+    bottom:10%;
 
+}
 #page12 {
     position: relative;
     height: 100vh;
@@ -568,7 +577,6 @@ html,body{
 
 .container-right {
     width: 50%;
-    /* background-color: aqua; */
     align-items: center;
     padding: 5rem 19rem;
     font-family: system-ui;
@@ -576,21 +584,21 @@ html,body{
 }
 
 .container-right > h4 {
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 350;
+    margin-bottom: 1.5rem;
 }
 
 .container-right > input {
     border: none;
     background-color: black;
-    color: white;
     border-bottom: 2px solid white;
     width: 20rem;
     font-size: 1.2rem;
 }
 .container-right > input::placeholder{
     font-size: 16px;
+    color: white;
 }
 
 .container-right > input:focus{
